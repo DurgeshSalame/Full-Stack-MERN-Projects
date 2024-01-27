@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID_NESTED_2</title>
+    <style>
+        body {
+            background-color: rgb(201, 228, 252);
+        }
+        .DS {
+            display: grid;
+            flex-wrap: wrap;
+            overflow: scroll;
+            flex-direction: row;
+            padding: 10px;
+            grid-auto-rows: 400px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+            
+        }
+        .ch1, .ch2 {
+            position: relative;
+            background-color: whitesmoke;
+            margin-left: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px rgb(178, 177, 177);
+        }
+         
+        
+        .ch3 {    
+            position: relative;
+            background-color: whitesmoke;
+            /* margin-left: 100px; */
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px rgb(178, 177, 177);
+            
+        }
+    
+
+
+        p {
+            text-align: center;
+        }
+
+        .ch1,
+        .ch2,
+        .ch3 {
+            align-items: center;
+            position: relative;
+            background-color: whitesmoke;
+            margin-left: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px rgb(178, 177, 177);
+
+
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        h2 {
+            background-color: rgb(81, 81, 152);
+            padding: 15px;
+            color: white;
+        }
+
+        hr {
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: rgb(218, 213, 213);
+        }
+
+        button {
+            background-color: yellow;
+            margin-left: 130px;
+            border-radius: 20px;
+            border: 1px solid rgb(138, 137, 137);
+            width: 70px;
+            font-size: 9px;
+            padding: 3px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <p><strong>Simple Responsive CSS Grid Layout Tables. <br>
+            Equal Heights & Reversing order on mobile</strong></p>
+    <div class="DS">
+        <div class="ch1">
+            <h1>Free Membership </h1>
+            <h2>Free Lifetime</h2>
+            <p><em>Lorem ipsum dolor adipisicing. consectetur <br> Esse ipsum inventore...</em></p>
+            <hr>
+
+            <button><strong>Sign Up</strong></button>
+            <hr>
+            <ul>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+            </ul>
+
+        </div>
+        <div class="ch2">
+            <h1>Basic Membership </h1>
+            <h2>$50/year</h2>
+            <p><em>Lorem ipsum dolor adipisicing. consectetur <br> Esse ipsum inventore...</em></p>
+            <hr>
+
+            <button><strong>Sign Up</strong></button>
+            <hr>
+            <ul>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+            </ul>
+
+        </div>
+        <div class="ch3">
+            <h1>Advanced Membership </h1>
+            <h2>$100/year</h2>
+            <p><em>Lorem ipsum dolor adipisicing. consectetur <br> Esse ipsum inventore...</em></p>
+            <hr>
+
+            <button><strong>Sign Up</strong></button>
+            <hr>
+            <ul>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+                <li>Lorem ipsum dolor voluptate ullam!</li>
+            </ul>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
