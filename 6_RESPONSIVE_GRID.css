@@ -1,0 +1,204 @@
+.boxes {
+    display: grid;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    flex-direction: row;
+    /* border: 0px solid black; */
+    padding: 10px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* when use display property flex */
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));   
+    gap: 50px ;
+}
+ 
+/* when use display property flex */
+.boxes > div {   
+    /* margin-inline: auto; */
+    height: 600px;
+
+    border: 2px solid rgb(255, 255, 255);
+    
+
+}       
+.box-a {
+    
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(jpj1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+    
+}
+.box-b {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(Rabbit.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+.box-c {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(nature1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+.box-d {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(dogs.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+.box-e {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(nature2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+.box-f {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(cartoon.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+.box-g {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(nature2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+.box-h {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(nature2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+.box-i {
+    height: 150px;
+    width: 155px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-image: url(nature2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: auto;
+    gap: 20px;
+
+}
+
+
+
+.box1{
+    background-image: url(Rabbit.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box2{
+    background-image: url(nature1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box3{
+    background-image: url(dogs.jpg);
+    background-size: cover;
+    background-position: center;
+        display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box4{
+    background-image: url(nature2.jpg);
+    background-size: cover;
+    background-position: center;
+        display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box5{
+    background-image: url(jpj1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.box6{
+    background-size: cover;
+    background-image: url(cartoon.jpg);
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.box7{
+    background-image: url(jpj1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.box8{
+    background-image: url(jpj1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.box9{
+    background-image: url(jpj1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
