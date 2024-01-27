@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPLATE</title>
+    <style>
+        body {
+            background: linear-gradient(to top right, rgb(0, 0, 0), rgb(219, 174, 174));
+            margin: auto;
+            background-attachment: fixed;
+        }
+
+        .container {
+            background-color: #a4c4c4;
+            border-radius: 10px;
+            text-align: center;
+            width: 400px;
+            margin: auto;
+        }
+
+        .container li {
+            float: left;
+            list-style: none;
+            padding: 15px 20px;
+        }
+
+        .container ul {
+            overflow: auto;
+        }
+
+        .container li a {
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+        .search {
+            float: right;
+            color: #a4c4c4;
+            padding: 12px 20px;
+            border-radius: 5px;
+        }
+
+        .search input {
+            border-radius: 5px;
+        }
+
+        li :hover {
+            color: orange;
+        }
+
+        /* **************************************.container1*************************************************** */
+        .container1 {
+            background-color: #a4c4c4;
+            border-radius: 10px;
+            text-align: center;
+            width: 400px;
+            margin: auto;
+        }
+
+        .container1 li {
+            float: left;
+            list-style: none;
+            padding: 15px 20px;
+        }
+
+        .container1 ul {
+            overflow: auto;
+        }
+
+        .container1 li a {
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+        .search1 {
+            float: right;
+            color: #a4c4c4;
+            padding: 12px 20px;
+            border-radius: 5px;
+        }
+
+        .search1 input {
+            border-radius: 5px;
+        }
+
+        li :hover {
+            color: orange;
+        }
+
+        /* ***************************************************container2************************************************* */
+        .container2 form {
+            height: 500px;
+            border: 1px solid rgb(236, 227, 173);
+            text-align: center;
+            width: 400px;
+            margin: auto;
+            background-color: bisque;
+            box-shadow: 5px 5px 5px blanchedalmond;
+
+        }
+
+        .container2 .leb {
+            margin-right: 110px;
+            border-radius: 5px;
+        }
+
+        .container2 #inp {
+            border: 1px solid rgb(237, 179, 179);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a>
+                    <!-- <ul>
+                    <li><a href="#">A1</a></li>
+                    <li><a href="#">A2</a></li>
+                    <li><a href="#">A3</a></li>
+                </ul> -->
+                </li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search the website">
+                </div>
+            </ul>
+
+
+        </nav>
+    </header>
+    <div class="container2" id="id">
+        <form>
+            <h1>L&nbsp;O&nbsp;G&nbsp;I&nbsp;N</h1><br>
+            <label class="leb">Name</label><br><br>
+            <input id="inp" type="text" name="name" placeholder="name" required><br><br>
+            <label class="leb">Email-Id</label><br><br>
+            <input id="inp" type="email" name="email" id="email" placeholder="email" required><br><br>
+            <label class="leb"> password</label><br><br>
+            <input id="inp" type="password" placeholder="password" required><br><br>
+            <button>submit</button>
+        </form>
+    </div>
+    <footer>
+        <nav class="container1">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a>
+                    <!-- <ul>
+                    <li><a href="#">A1</a></li>
+                    <li><a href="#">A2</a></li>
+                    <li><a href="#">A3</a></li>
+                </ul> -->
+                </li>
+                <div class="search1">
+                    <input type="text" name="search" id="search1" placeholder="search the website">
+                </div>
+            </ul>
+
+
+        </nav>
+    </footer>
+</body>
+
+</html>
